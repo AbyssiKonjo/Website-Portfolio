@@ -1,0 +1,47 @@
+{
+    "individualProjects": [
+      {
+        "id": "1",
+        "Project_image": "public/img/individual/NiaProject3.png",
+        "project_title": "Asian Dramas",
+        "description": "Asian dramas I like to watch",
+        "gitHub_link": "https://github.com/AbyssiKonjo/Mini-Project---Asian-Dramas",
+        "vercel_link": "https://mini-project-asian-dramas.vercel.app/"
+      },
+      {
+        "id": "2",
+        "Project_image": "public/img/individual/Taupo Accommodations.png",
+        "project_title": "Taupo Accommodation",
+        "description": "Accomodation finder website for toupo.",
+        "gitHub_link": "https://github.com/AbyssiKonjo/Summative-2-Taupo-Accommodations",
+        "vercel_link": "https://taupo-accommodations.vercel.app/"
+      },
+      {
+        "id": "2",
+        "Project_image": "public/img/individual/Wellington Botanicle Society Mockup.png",
+        "project_title": "Wellington Botanical Society",
+        "description": "The Storm on the Sea of Galilee is the only seascape ever painted by Rembrandt...",
+        "gitHub_link": "https://github.com/AbyssiKonjo/Summative-1---Wellington-Botanical-Society",
+        "vercel_link": "https://summative-1-wellington-botanical-society.vercel.app/"
+      }
+    ],
+    "groupProjects": [
+      {
+        "id": "1",
+        "Project_image": ["public/img/group1/2402 WUX.png", "public/img/group1/Class Portfolio_Group Project.png"],
+        "project_title": "Class portfolio",
+        "description": "Group project on a class portfolio",
+        "gitHub_link": "https://github.com/AbyssiKonjo/Formative-3.2",
+        "vercel_link": "Group project details"
+      },
+      {
+        "id": "2",
+        "Project_image": ["public/img/group2/Studio Display Right View Mockup2.png","public/img/group2/Studio Display Right View Mockup.png", "public/img/group2/Single page Mobile Mockup.png", "public/img/group2/Mobile Mockup.png"],
+        "project_title": "Platypus Marketplace",
+        "description": "Worked in a group of 3 to create a secondhand market place for people to buy and sell shoes.",
+        "gitHub_link": "https://github.com/PSTL-02/Perry-s-drip-patrol",
+        "vercel_link": "Has not been deployed"
+      }
+    ]
+}
+  
