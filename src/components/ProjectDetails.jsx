@@ -33,35 +33,43 @@ const ProjectDetails = () => {
     <div className='page-body'>
       <section className='individual-projects projects'>
         <h2 className='header-text'>Individual projects</h2>
+        <p>These are the projects I completed on my own using HTML, CSS, JavaScript, Swiper, Full Page, Node.js, Gulp</p>
         <div className='image-container'>
           {projects.individualProjects.map(project => (
             <div key={project.id} className='project-image' onClick={() => handleIndividualProjectClick(project)}>
               <img src={project.Project_image} alt={project.project_title} />
-              {selectedIndividualProject && selectedIndividualProject.id === project.id && (
-                <div className='project-details'>
-                  <h3>{selectedIndividualProject.project_title}</h3>
-                  <p>{selectedIndividualProject.description}</p>
-                  <div className='social-icon'>
-                    <p>
-                      <a href={selectedIndividualProject.gitHub_link} target="_blank" rel="noopener noreferrer">
-                        <FaGithub size={30} />
-                      </a>
-                    </p>
-                    <p>
-                      <a href={selectedIndividualProject.vercel_link} target="_blank" rel="noopener noreferrer">
-                        <FaGlobe size={30} />
-                      </a>
-                    </p>
-                  </div>
-                </div>
-              )}
             </div>
           ))}
+        </div>
+        <div className='description'>
+          {selectedIndividualProject ? (
+            <>
+              <div className='details'>
+                <h2>{selectedIndividualProject.project_title}</h2>
+                <p>{selectedIndividualProject.description}</p>
+              </div>
+              <div className='social-icons'>
+                <p>
+                  <a href={selectedIndividualProject.gitHub_link} target="_blank" rel="noopener noreferrer">
+                    <FaGithub size={30} />
+                  </a>
+                </p>
+                <p>
+                  <a href={selectedIndividualProject.vercel_link} target="_blank" rel="noopener noreferrer">
+                    <FaGlobe size={30} />
+                  </a>
+                </p>
+              </div>
+            </>
+          ) : (
+            <h2>Select one of the images above...</h2>
+          )}
         </div>
       </section>
 
       <section className='group-projects projects'>
         <h2 className='header-text'>Group projects</h2>
+        <p>These are the projects I worked on with a team using HTML, CSS, JavaScript, React, Node.js, etc.</p>
         <div className='image-container'>
           {projects.groupProjects.map(project => (
             <div key={project.id} className='project-image' onClick={() => handleGroupProjectClick(project)}>
@@ -72,26 +80,32 @@ const ProjectDetails = () => {
               ) : (
                 <img src={project.Project_image} alt={project.project_title} />
               )}
-              {selectedGroupProject && selectedGroupProject.id === project.id && (
-                <div className='project-details'>
-                  <h3>{selectedGroupProject.project_title}</h3>
-                  <p>{selectedGroupProject.description}</p>
-                  <div className='social-icon'>
-                    <p>
-                      <a href={selectedGroupProject.gitHub_link} target="_blank" rel="noopener noreferrer">
-                        <FaGithub size={30} />
-                      </a>
-                    </p>
-                    <p>
-                      <a href={selectedGroupProject.vercel_link} target="_blank" rel="noopener noreferrer">
-                        <FaGlobe size={30} />
-                      </a>
-                    </p>
-                  </div>
-                </div>
-              )}
             </div>
           ))}
+        </div>
+        <div className='description'>
+          {selectedGroupProject ? (
+            <>
+              <div className='details'>
+                <h2>{selectedGroupProject.project_title}</h2>
+                <p>{selectedGroupProject.description}</p>
+              </div>
+              <div className='social-icons'>
+                <p>
+                  <a href={selectedGroupProject.gitHub_link} target="_blank" rel="noopener noreferrer">
+                    <FaGithub size={30} />
+                  </a>
+                </p>
+                <p>
+                  <a href={selectedGroupProject.vercel_link} target="_blank" rel="noopener noreferrer">
+                    <FaGlobe size={30} />
+                  </a>
+                </p>
+              </div>
+            </>
+          ) : (
+            <h2>Select one of the images above...</h2>
+          )}
         </div>
       </section>
     </div>

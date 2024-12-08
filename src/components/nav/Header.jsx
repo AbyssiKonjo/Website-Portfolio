@@ -1,10 +1,12 @@
-import {useState} from 'react'
+import { useState } from 'react'
 import MobileMenu from './MobileMenu'
-import { Link } from 'react-router-dom'
+import { Link, useLocation } from 'react-router-dom'
 import { List } from 'react-bootstrap-icons'
+import { FaHome } from 'react-icons/fa'
 
 const Header = () => {
   const [menuIsOpen, openMenu] = useState(false)
+  const location = useLocation()
 
   const toggleMobileMenu = () => {
     openMenu(!menuIsOpen)
@@ -15,7 +17,15 @@ const Header = () => {
     <>
       <div id='topnav'>
         <div id='logo'>
-          <Link to="/contact">Get In Touch</Link>
+          {location.pathname === '/contact' ? (
+            <Link to="/">
+              <FaHome size={30} />
+            </Link>
+          ) : (
+            <Link to="/contact">
+              Get In Touch
+            </Link>
+          )}
         </div>
 
         {/* Desktop Menu */}
