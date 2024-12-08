@@ -12,17 +12,25 @@
         "id": "2",
         "Project_image": "/img/individual/Taupo Accommodations.webp",
         "project_title": "Taupo Accommodation",
-        "description": "Accomodation finder website for toupo.",
+        "description": "Second summative of the course. An accommodation finder website for Toupo.",
         "gitHub_link": "https://github.com/AbyssiKonjo/Summative-2-Taupo-Accommodations",
         "vercel_link": "https://taupo-accommodations.vercel.app/"
       },
       {
-        "id": "2",
+        "id": "3",
         "Project_image": "/img/individual/Wellington Botanicle Society Mockup.webp",
         "project_title": "Wellington Botanical Society",
-        "description": "The Storm on the Sea of Galilee is the only seascape ever painted by Rembrandt...",
+        "description": "First summative of the course.",
         "gitHub_link": "https://github.com/AbyssiKonjo/Summative-1---Wellington-Botanical-Society",
         "vercel_link": "https://summative-1-wellington-botanical-society.vercel.app/"
+      },
+      {
+        "id": "4",
+        "Project_image": "/img/individual/TKI Mockup .webp",
+        "project_title": "The Kindness Institute",
+        "description": "The Storm on the Sea of Galilee is the only seascape ever painted by Rembrandt...",
+        "gitHub_link": "https://github.com/AbyssiKonjo/summative-4",
+        "vercel_link": ""
       }
     ],
     "groupProjects": [
@@ -32,7 +40,7 @@
         "project_title": "Class portfolio",
         "description": "Group project on a class portfolio",
         "gitHub_link": "https://github.com/AbyssiKonjo/Formative-3.2",
-        "vercel_link": "Group project details"
+        "vercel_link": ""
       },
       {
         "id": "2",
@@ -40,7 +48,7 @@
         "project_title": "Platypus Marketplace",
         "description": "Worked in a group of 3 to create a secondhand market place for people to buy and sell shoes.",
         "gitHub_link": "https://github.com/PSTL-02/Perry-s-drip-patrol",
-        "vercel_link": "Has not been deployed"
+        "vercel_link": ""
       }
     ]
 }
