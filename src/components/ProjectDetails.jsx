@@ -48,7 +48,7 @@ const ProjectDetails = () => {
                 <h2>{selectedIndividualProject.project_title}</h2>
                 <p>{selectedIndividualProject.description}</p>
               </div>
-              <div className='social-icons'>
+              <div id='socialIcons'>
                 <p>
                   <a href={selectedIndividualProject.gitHub_link} target="_blank" rel="noopener noreferrer">
                     <FaGithub size={30} />
