@@ -1,55 +1,60 @@
 {
-    "individualProjects": [
-      {
-        "id": "1",
-        "Project_image": "/img/individual/NiaProject3.webp",
-        "project_title": "Asian Dramas",
-        "description": "Asian dramas I like to watch",
-        "gitHub_link": "https://github.com/AbyssiKonjo/Mini-Project---Asian-Dramas",
-        "vercel_link": "https://mini-project-asian-dramas.vercel.app/"
-      },
-      {
-        "id": "2",
-        "Project_image": "/img/individual/Taupo Accommodations.webp",
-        "project_title": "Taupo Accommodation",
-        "description": "Second summative of the course. An accommodation finder website for Toupo.",
-        "gitHub_link": "https://github.com/AbyssiKonjo/Summative-2-Taupo-Accommodations",
-        "vercel_link": "https://taupo-accommodations.vercel.app/"
-      },
-      {
-        "id": "3",
-        "Project_image": "/img/individual/Wellington Botanicle Society Mockup.webp",
-        "project_title": "Wellington Botanical Society",
-        "description": "First summative of the course.",
-        "gitHub_link": "https://github.com/AbyssiKonjo/Summative-1---Wellington-Botanical-Society",
-        "vercel_link": "https://summative-1-wellington-botanical-society.vercel.app/"
-      },
-      {
-        "id": "4",
-        "Project_image": "/img/individual/TKI Mockup .webp",
-        "project_title": "The Kindness Institute",
-        "description": "The Storm on the Sea of Galilee is the only seascape ever painted by Rembrandt...",
-        "gitHub_link": "https://github.com/AbyssiKonjo/summative-4",
-        "vercel_link": ""
-      }
-    ],
-    "groupProjects": [
-      {
-        "id": "1",
-        "Project_image": ["/img/group1/2402 WUX.webp", "/img/group1/Class Portfolio_Group Project.webp"],
-        "project_title": "Class portfolio",
-        "description": "Group project on a class portfolio",
-        "gitHub_link": "https://github.com/AbyssiKonjo/Formative-3.2",
-        "vercel_link": ""
-      },
-      {
-        "id": "2",
-        "Project_image": ["/img/group2/Studio Display Right View Mockup2.webp","/img/group2/Studio Display Right View Mockup.webp", "/img/group2/Single page Mobile Mockup.webp", "/img/group2/Mobile Mockup.webp"],
-        "project_title": "Platypus Marketplace",
-        "description": "Worked in a group of 3 to create a secondhand market place for people to buy and sell shoes.",
-        "gitHub_link": "https://github.com/PSTL-02/Perry-s-drip-patrol",
-        "vercel_link": ""
-      }
-    ]
+  "projects": [
+    {
+      "id": "1",
+      "project_image": "/img/individual/NiaProject3.webp",
+      "project_title": "Asian Dramas",
+      "description": "Asian dramas I like to watch. Using HTML, Javascript, SASS & Swiper",
+      "gitHub_link": "https://github.com/AbyssiKonjo/Mini-Project---Asian-Dramas",
+      "vercel_link": "https://mini-project-asian-dramas.vercel.app/",
+      "project_type": "Individual"
+    },
+    {
+      "id": "2",
+      "project_image": "/img/individual/Taupo Accommodations.webp",
+      "project_title": "Taupo Accommodation",
+      "description": "Second summative of the course. An accommodation finder website for Toupo. Using HTML, Javascript, SASS & Swiper",
+      "gitHub_link": "https://github.com/AbyssiKonjo/Summative-2-Taupo-Accommodations",
+      "vercel_link": "https://taupo-accommodations.vercel.app/",
+      "project_type": "Individual"
+    },
+    {
+      "id": "3",
+      "project_image": "/img/individual/Wellington Botanicle Society Mockup.webp",
+      "project_title": "Wellington Botanical Society",
+      "description": "First summative of the course. Using HTML, Javascript & CSS",
+      "gitHub_link": "https://github.com/AbyssiKonjo/Summative-1---Wellington-Botanical-Society",
+      "vercel_link": "https://summative-1-wellington-botanical-society.vercel.app/",
+      "project_type": "Individual"
+    },
+    {
+      "id": "4",
+      "project_image": "/img/individual/TKI Mockup .webp",
+      "project_title": "The Kindness Institute",
+      "description": "The Storm on the Sea of Galilee is the only seascape ever painted by Rembrandt...",
+      "gitHub_link": "https://github.com/AbyssiKonjo/summative-4",
+      "vercel_link": "https://summative-4.vercel.app/",
+      "project_type": "Individual"
+    },
+    {
+      "id": "5",
+      "project_image": ["/img/group1/2402 WUX.webp", "/img/group1/Class Portfolio_Group Project.webp"],
+      "project_title": "Class portfolio",
+      "description": "Group project on a class portfolio I worked on with Yaz & Baxter",
+      "gitHub_link": "https://github.com/AbyssiKonjo/Formative-3.2",
+      "vercel_link": "",
+      "developers": ["https://github.com/AbyssiKonjo", "https://github.com/yazzamuffiny", "https://github.com/BaxterMcKenzie"],
+      "project_type": "Group"
+    },
+    {
+      "id": "6",
+      "project_image": ["/img/group2/Mobile Mockup.webp"],
+      "project_title": "Platypus Marketplace",
+      "description": "Worked in a group of 3 to create a secondhand market place for people to buy and sell shoes.",
+      "gitHub_link": "https://github.com/PSTL-02/Perry-s-drip-patrol",
+      "vercel_link": "",
+      "developers": ["https://github.com/AbyssiKonjo", "https://github.com/Mere-Frances", "https://github.com/PSTL-02"],
+      "project_type": "Group"
+    }
+  ]
 }
-  
