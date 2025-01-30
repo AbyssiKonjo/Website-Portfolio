@@ -64,8 +64,8 @@ const ProjectDetails = () => {
               <div className="details">
                 <h2>{selectedProject.project_title}</h2>
                 <div className="content">
-                  <h3>Project Type:</h3>
-                  <p>{selectedProject.project_type} Project</p>
+                  {/* <h3>Project Type:</h3>
+                  <p>{selectedProject.project_type} Project</p> */}
                   <h3>Description:</h3>
                   <p>{selectedProject.description}</p>
                   {selectedProject.developers && selectedProject.developers.length > 0 && (

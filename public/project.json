@@ -2,18 +2,18 @@
   "projects": [
     {
       "id": "1",
-      "project_image": "/img/individual/NiaProject3.webp",
-      "project_title": "Asian Dramas",
-      "description": "Asian dramas I like to watch. Using HTML, Javascript, SASS & Swiper",
-      "gitHub_link": "https://github.com/AbyssiKonjo/Mini-Project---Asian-Dramas",
-      "vercel_link": "https://mini-project-asian-dramas.vercel.app/",
+      "project_image": "/img/individual/TKI Mockup .webp",
+      "project_title": "The Kindness Institute",
+      "description": "A project developed for the fourth summative of my course, where I created a CMS website for The Kindness Institute, a non-profit organization. The site allows users to engage with the cause through donations and purchasing products from a curated online catalog. Built with a focus on functionality, security, and SEO optimization, the project includes a custom WordPress theme with client-friendly content management features and is fully responsive across all devices.",
+      "gitHub_link": "https://github.com/AbyssiKonjo/summative-4",
+      "vercel_link": "https://summative-4.vercel.app/",
       "project_type": "Individual"
     },
     {
       "id": "2",
       "project_image": "/img/individual/Taupo Accommodations.webp",
       "project_title": "Taupo Accommodation",
-      "description": "Second summative of the course. An accommodation finder website for Toupo. Using HTML, Javascript, SASS & Swiper",
+      "description": "A project developed for the second summative of my course. I created an accommodation finder website for Taupo, allowing users to filter options and find their ideal accommodation. The website was built using HTML, JavaScript, SASS, and Swiper, focusing on a seamless user experience.",
       "gitHub_link": "https://github.com/AbyssiKonjo/Summative-2-Taupo-Accommodations",
       "vercel_link": "https://taupo-accommodations.vercel.app/",
       "project_type": "Individual"
@@ -22,39 +22,19 @@
       "id": "3",
       "project_image": "/img/individual/Wellington Botanicle Society Mockup.webp",
       "project_title": "Wellington Botanical Society",
-      "description": "First summative of the course. Using HTML, Javascript & CSS",
+      "description": "A project developed for the first summative of my course, where I redesigned the Wellington Botanical Society's website using HTML, JavaScript, and CSS. The goal was to create a modern, user-friendly interface, showcasing my front-end development skills with a strong focus on responsive design.",
       "gitHub_link": "https://github.com/AbyssiKonjo/Summative-1---Wellington-Botanical-Society",
       "vercel_link": "https://summative-1-wellington-botanical-society.vercel.app/",
       "project_type": "Individual"
     },
     {
       "id": "4",
-      "project_image": "/img/individual/TKI Mockup .webp",
-      "project_title": "The Kindness Institute",
-      "description": "The Storm on the Sea of Galilee is the only seascape ever painted by Rembrandt...",
-      "gitHub_link": "https://github.com/AbyssiKonjo/summative-4",
-      "vercel_link": "https://summative-4.vercel.app/",
+      "project_image": "/img/individual/NiaProject3.webp",
+      "project_title": "Asian Dramas",
+      "description": "A website showcasing a collection of Asian dramas I've watched over the years. It allows users to filter and sort dramas by country, genre, and actor/actress. Built with HTML, JavaScript, SASS, Mapbox, Axios, and Swiper.js.",
+      "gitHub_link": "https://github.com/AbyssiKonjo/Mini-Project---Asian-Dramas",
+      "vercel_link": "https://mini-project-asian-dramas.vercel.app/",
       "project_type": "Individual"
-    },
-    {
-      "id": "5",
-      "project_image": ["/img/group1/2402 WUX.webp", "/img/group1/Class Portfolio_Group Project.webp"],
-      "project_title": "Class portfolio",
-      "description": "Group project on a class portfolio I worked on with Yaz & Baxter",
-      "gitHub_link": "https://github.com/AbyssiKonjo/Formative-3.2",
-      "vercel_link": "",
-      "developers": ["https://github.com/AbyssiKonjo", "https://github.com/yazzamuffiny", "https://github.com/BaxterMcKenzie"],
-      "project_type": "Group"
-    },
-    {
-      "id": "6",
-      "project_image": ["/img/group2/Mobile Mockup.webp"],
-      "project_title": "Platypus Marketplace",
-      "description": "Worked in a group of 3 to create a secondhand market place for people to buy and sell shoes.",
-      "gitHub_link": "https://github.com/PSTL-02/Perry-s-drip-patrol",
-      "vercel_link": "",
-      "developers": ["https://github.com/AbyssiKonjo", "https://github.com/Mere-Frances", "https://github.com/PSTL-02"],
-      "project_type": "Group"
     }
   ]
 }
